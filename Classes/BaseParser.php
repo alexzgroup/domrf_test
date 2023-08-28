@@ -25,21 +25,19 @@ class BaseParser implements ReadDataInterface
 
     /**
      * Наши данные для записи
-     * @var array
      */
-    protected array $data;
+    protected $data;
 
     /**
      * Результирующий массив
-     * @var array
      */
-    protected array $result_data;
+    protected $result_data;
 
     /**
      * Путь к файлу
      * @var string
      */
-    protected string $path_to_file;
+    protected $path_to_file;
 
     public function readFile(): void
     {

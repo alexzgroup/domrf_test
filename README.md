@@ -5,7 +5,7 @@ Test Work - Middle Web Developer
 [github repository](https://github.com/domrfbank/backend_task_middle)
 
 ## Run console script
-```php offices.txt```
+```php index.php offices.txt```
 
 ### Before run script:
 input offices.txt file in root directory
@@ -13,3 +13,5 @@ input offices.txt file in root directory
 output two files: offices.xml and offices.json
 
 you edit output files in index.php
+
+### Recommended php version 8.1
